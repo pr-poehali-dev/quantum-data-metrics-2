@@ -19,19 +19,25 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/fda6056e-54da-4e56-98ef-e6a7e25df559/files/1dbce482-63db-4949-b3c6-fe519683ea14.jpg"
+          alt="Soundwave landscape"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ПОЧУВСТВУЙ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Музыка, которая подстраивается под твоё настроение и делает тебя лучше
         </p>
+        <a
+          href="#start"
+          className="mt-8 inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-transparent hover:text-white border border-white transition-all duration-300"
+        >
+          Подобрать музыку
+        </a>
       </div>
     </div>
   );
